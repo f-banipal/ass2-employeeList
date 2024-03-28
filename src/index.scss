@@ -1,8 +1,8 @@
-@import './scss/reset', './scss/variables', './scss/responsive';
+@import "./scss/reset", "./scss/variables", "./scss/responsive";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $clr-blue;
   color: $clr-grey-9;
   line-height: 1.5;
@@ -39,9 +39,8 @@ h3 {
   font-size: 1.25rem;
   text-align: center;
   font-weight: bold;
- 
 }
-hr{
+hr {
   margin: 1rem 0;
 }
 
@@ -73,10 +72,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -4rem;
 }
 
 .container {
-  height: 80vh;
+  height: 80%;
   width: 90vw;
   margin-top: 5rem;
   max-width: $fixed-width;
@@ -96,9 +96,7 @@ main {
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
   align-items: center;
- 
 }
-
 
 .person img {
   width: 75px;
@@ -106,7 +104,7 @@ main {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: $light-shadow;
-  &:hover{
+  &:hover {
     transform: translateX(300px) rotateY(180deg);
     transition: all 1s ease;
     cursor: cell;
@@ -118,15 +116,10 @@ main {
 .person p {
   margin-bottom: 0;
 }
-.btns{
-  display: flex;   
+.btns {
+  display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
-  transform: translateX(-50%);
-  width: 350px;
 }
 .btns button {
   color: $clr-black;
@@ -143,7 +136,7 @@ main {
   cursor: pointer;
 }
 
-.btns button:hover{
+.btns button:hover {
   color: white;
   border-radius: 10px;
   border: none;
